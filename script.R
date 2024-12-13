@@ -37,9 +37,6 @@ arabinose_img <- load.image(arabinose_file)
 # ============================
 # 3. Data Processing
 # ============================
-# Resize images to consistent dimensions
-glucose_img_resized <- resize(glucose_img, 1115, 740)
-arabinose_img_resized <- resize(arabinose_img, 1115, 740)
 
 # Define plate dimensions
 n_rows <- 16
